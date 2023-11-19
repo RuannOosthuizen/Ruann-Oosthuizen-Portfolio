@@ -1,0 +1,394 @@
+body {
+    background-color: #0D0D0D;
+    margin: 0;
+    padding: 0;
+}
+
+/*Section 1 Hero Page*/
+.hero-page {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url("../assets/astroid_bg.png");
+    background-color: rgb(38, 38, 38, 0.5);
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    height: 90vh;
+    box-shadow: 0px 8px 18px black;
+}
+
+.my-name{
+    font-family: 'Sarabun', sans-serif;
+    color: #F2F2F2;
+    font-size: 6rem;
+    margin-top: 250px;
+    margin-bottom: 0;
+    padding: 0;
+    letter-spacing: 8px;
+}
+
+.title-text p {
+    font-family: 'Playfair Display', serif;
+    color: #F2F2F2;
+    font-size: 2rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+/*Section 2 Short Bio*/
+
+.about-me {
+    background-color: #F2F2F2;
+    margin-top: 60px;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding: 50px;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 0.5fr 3fr;
+    justify-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.porttrait {
+    margin: 0 auto 1.5rem;
+}
+
+.hey-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+    padding: 5px;
+}
+
+.more-about-me {
+    text-align: center;
+    width: 900px;
+}
+
+.bio {
+    color: #0D0D0D;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #A67F68;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #F2F2F2;
+    margin-top: 25px;
+    padding: 10px;
+    width: 230px;
+    opacity: 0.6;
+    transition-duration: 0.1s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 5px #8C8C8C;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.btn:active {
+    box-shadow: 0 3px #0D0D0D;
+    transform: translateY(4px);
+}
+
+
+/*Section 3 Resume Page*/
+.work-experience {
+    background-color: #262626;
+    margin: 60px 70px 20px 70px;
+    border-radius: 15px;
+    padding: 20px 300px;
+    box-shadow: 0px 8px 18px black;
+}
+
+.section-title, .my-work-heading {
+    color: #F2F2F2;
+    font-family: 'Sarabun', sans-serif;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.job-content {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.job-info {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.job-titles {
+    width: 300px;
+}
+
+.job-description {
+    flex-grow: 1;
+    padding-left: 20px;
+    color: #8C8C8C;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.job-title, .degree-title {
+    margin-bottom: 5px;
+    color: #F2F2F2;
+    font-family: 'Sarabun', sans-serif;
+    letter-spacing: 2px;
+}
+
+.job-date, .institution-place {
+    margin-top: 0;
+    font-family: 'Playfair Display', serif;
+    color: #A67F68;
+    letter-spacing: 1px;
+}
+
+.title-icon {
+    fill: #F2F2F2;
+    margin-right: 15px;
+}
+
+/*Education section & Skills section*/
+
+.education-skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.education {
+    background-color: #262626;
+    border-radius: 15px;
+    box-shadow: 0px 8px 18px black;
+    padding: 20px 90px;
+    margin: 20px 10px 20px 80px;
+}
+
+.skills {
+    background-color: #262626;
+    border-radius: 15px;
+    box-shadow: 0px 8px 18px black;
+    padding: 20px 90px;
+    margin: 20px 80px 20px 10px;
+}
+
+.education-section-title, .skills-section-title {
+    color: #F2F2F2;
+    font-family: 'Sarabun', sans-serif;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.education-content {
+    margin-bottom: 20px;
+}
+
+.education-info {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.degree-and_place {
+    width: 400px;
+    padding-left: 20px;
+}
+
+.date-completion {
+    padding-left: 20px;
+    color: #8C8C8C;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.skill-content ul {
+    list-style-type: circle;
+}
+
+.skill-content li {
+    color: #8C8C8C;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    padding: 5px 0px;
+}
+
+
+/*My work styling section*/
+
+.my-work-section {
+    background-color: #A67F68;
+    margin: 40px 70px 60px 70px;
+    border-radius: 15px;
+    padding: 20px 300px;
+    box-shadow: 0px 8px 18px black;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    margin: 0px 20px 30px 20px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #F2F2F2;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    font-size: 40px;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover .card-content {
+    opacity: 0;
+}
+
+.card:nth-child(1) {
+    background: url('../assets/video_bg.jpg') center/cover no-repeat;
+}
+
+.card:nth-child(2) {
+    background: url('../assets/coding_bg.jpg') center/cover no-repeat;
+}
+
+.card:nth-child(3) {
+    background: url('../assets/graphic_bg.jpg') center/cover no-repeat;
+}
+
+/*Contact me section*/
+
+.contact-me-page {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    background-image: url("../assets/astroid_bg.png");
+    background-color: rgb(38, 38, 38, 0.5);
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    height: 90vh;
+    box-shadow: 0px 8px 18px black;
+}
+
+.contact-container {
+    background-color: #F2F2F2;
+    width: 1300px;
+    height: 600px;
+    margin: 60px 70px 20px 70px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 18px black;
+}
+
+.contact-title {
+    color: #0D0D0D;
+    font-family: 'Sarabun', sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    padding: 40px 0px 10px 0px;
+}
+
+.contact-sentence {
+    color: #8C8C8C;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 15px;
+    letter-spacing: 0.5px;
+}
+
+.email-button {
+    background-color: #A67F68;
+    border: none;
+    border-radius: 8px;
+    font-size: 28px;
+    color: #F2F2F2;
+    padding: 8px;
+    width: 230px;
+    opacity: 0.6;
+    transition-duration: 0.1s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 5px #8C8C8C;
+}
+
+.email-button:hover {
+    opacity: 1;
+}
+
+.email-button:active {
+    box-shadow: 0 3px #0D0D0D;
+    transform: translateY(4px);
+}
+
+.social-media-icon {
+    fill: #262626;
+    padding: 0px 20px;
+}
+
+.social-media-icon:hover {
+    fill: #0D0D0D;
+}
+
+.footer {
+    margin-top: 130px;
+    margin-bottom: 0px;
+    color: #F2F2F2;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.6px;
+}
+
+/*extra css notes:*/
+
+/*COLOURS:
+#8C8C8C  light grey
+#A67F68  Rosy Brown
+#F2F2F2  White
+#262626  Dark Grey
+#0D0D0D  Light Black
+*/
+
